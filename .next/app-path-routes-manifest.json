@@ -1,0 +1,7 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/template-a/page": "/template-a",
+  "/template-b/page": "/template-b"
+}
