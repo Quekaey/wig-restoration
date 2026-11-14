@@ -15,10 +15,10 @@
   },
   {
     "route": "/template-b",
-    "firstLoadUncompressedJsBytes": 497270,
+    "firstLoadUncompressedJsBytes": 497290,
     "firstLoadChunkPaths": [
       ".next\\static\\chunks\\3qfy96eoyh-ek.js",
-      ".next\\static\\chunks\\2l64_5lfawaaq.js",
+      ".next\\static\\chunks\\0-amcxyu9tytl.js",
       ".next\\static\\chunks\\0i2n-sd1yc3yh.js",
       ".next\\static\\chunks\\1pcw6gskne7pf.js",
       ".next\\static\\chunks\\1wnov70f88xjy.js",

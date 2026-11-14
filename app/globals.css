@@ -17,6 +17,35 @@ img { user-select:none; }
 .eyebrow { letter-spacing:.2em; text-transform:uppercase; font-size:.72rem; font-weight:700; }
 .hide-scrollbar::-webkit-scrollbar { display:none; }
 .hide-scrollbar { scrollbar-width:none; }
+/* Assessment photo guides: generated examples stay visual references, not uploaded values. */
+#wizard .border-dashed:nth-child(1) > label.flex { background-image:linear-gradient(to top,rgba(45,18,55,.9),rgba(45,18,55,.06) 66%),url('/images/assessment-front-example.webp'); }
+#wizard .border-dashed:nth-child(2) > label.flex { background-image:linear-gradient(to top,rgba(45,18,55,.9),rgba(45,18,55,.06) 66%),url('/images/assessment-back-example.webp'); }
+#wizard .border-dashed:nth-child(3) > label.flex { background-image:linear-gradient(to top,rgba(45,18,55,.9),rgba(45,18,55,.06) 66%),url('/images/assessment-damage-example.webp'); }
+#wizard .border-dashed > label.flex {
+  position:relative;
+  justify-content:flex-end;
+  background-position:center;
+  background-size:cover;
+  color:white;
+  text-shadow:0 1px 12px rgba(28,10,32,.7);
+}
+#wizard .border-dashed > label.flex::before {
+  content:"Example photo";
+  position:absolute;
+  left:.75rem;
+  top:.75rem;
+  border-radius:999px;
+  background:rgba(255,255,255,.92);
+  padding:.35rem .6rem;
+  color:#6d2b5b;
+  font-size:.625rem;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-shadow:none;
+  text-transform:uppercase;
+}
+#wizard .border-dashed > label.flex svg { color:white; }
+#wizard .border-dashed > label.flex span { color:rgba(255,255,255,.78); }
 @media (max-width: 420px) {
   .container-a, .container-b { width:min(calc(100% - 1.25rem), 1240px); }
   .eyebrow { letter-spacing:.14em; }
